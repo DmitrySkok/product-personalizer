@@ -9,12 +9,8 @@ const Products = () => {
     <section>
       {products.map(product => <Product 
       key={product.id} 
-      id={product.id} 
-      basePrice={product.basePrice}  
-      title={product.title} 
-      colors={product.colors} 
-      sizes={product.sizes} 
-      name={product.name} /> )}
+      id={product.id}
+      {...product} /> )}
     </section>
   );
 };
