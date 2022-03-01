@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { useState } from 'react';
 
 const Product = props => {
+  console.log('Product props: ', props);
   const [currentColor, setCurrentColor] = useState(props.colors[0]);
   const [currentSize, setCurrentSize] = useState(props.sizes[0].name);
 
@@ -35,7 +36,9 @@ const Product = props => {
           <h2 className={styles.name}>{props.title}</h2>
           <span className={styles.price}>{getPrice(props.basePrice)}</span>
         </header>
-        <ProductForm 
+        <ProductForm
+        colors={props.colors}
+        sizes={props.sizes}
         handleSubmit={handleSubmit}
         prepareColorClassName={prepareColorClassName}
         currentColor={currentColor}

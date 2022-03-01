@@ -12,7 +12,16 @@
   position: relative;
 }
 
-/* .imageContainer {
+.name {
+  margin: $base-size 0;
+  font-size: $base-size * 3;
+}
+
+.price {
+  font-size: $base-size * 1.5;
+}
+
+.imageContainer {
   flex: 0 0 40%;
   width: 40%;
   padding: 0 ($base-size * 2);
@@ -25,12 +34,9 @@
   width: 100%;
   border-radius: $radius;
   box-shadow: $box-shadow;
-} */
-
-/* .name {
-  margin: $base-size 0;
-  font-size: $base-size * 3;
 }
+
+
 
 .price {
   font-size: $base-size * 1.5;
@@ -38,9 +44,9 @@
 
 .optionLabel {
   margin: $base-size 0;
-} */
+}
 
-/* .choices {
+.choices {
   display: flex;
   padding: 0;
   margin: 0;
@@ -70,19 +76,19 @@
     &.colorBlack {
       background: #000;
     }
-  
+
     &.colorRed {
       background: #e74c3c;
     }
-  
+
     &.colorWhite {
       background: #fff;
     }
-  
+
     &.colorBlue {
       background: #3498db;
     }
-  
+
     &.colorGreen {
       background: #2ecc71;
     }
@@ -92,11 +98,11 @@
     }
   }
 
-} */
+}
 
-/* .sizes .choices button:hover{
+.sizes .choices button:hover{
   background: rgb(47, 53, 66);
-} */
+}
 
 .button {
   position: absolute;
@@ -106,4 +112,4 @@
   border-radius: 100%;
   width: $base-size * 5;
   height: $base-size * 5;
-}
+} 
