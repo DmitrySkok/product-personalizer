@@ -5,7 +5,7 @@ import styles from './ProductForm.module.scss';
 import PropTypes from 'prop-types';
 
 const ProductForm = props => {
-  console.log('ProductForm props: ', props);
+  // console.log('ProductForm props: ', props);
   return (
     <form onSubmit={props.handleSubmit}>
       <OptionSize

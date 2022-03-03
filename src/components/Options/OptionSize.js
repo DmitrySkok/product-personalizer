@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import PropTypes from 'prop-types';
 
 const OptionSize = props => {
-  console.log('OptionSize props: ', props);
+  // console.log('OptionSize props: ', props);
   return (
     <div className={styles.sizes}>
       <h3 className={styles.optionLabel}>Sizes</h3>

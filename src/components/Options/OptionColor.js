@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import PropTypes from 'prop-types'
 
 const OptionColor = (props) => {
-  console.log('OptionColor props: ', props);
+  // console.log('OptionColor props: ', props);
   return (
     <div className={styles.colors}>
       <h3 className={styles.optionLabel}>Colors</h3>
